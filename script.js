@@ -6,7 +6,13 @@ document.getElementById('quiz-form').addEventListener('submit', function(event) 
         q1: 'b',
         q2: 'c',
         q3: 'b',
-        q5: 'c'
+        q4: 'a',
+        q5: 'c',
+        q6: 'c',
+        q7: 'c',
+        q8: 'd',
+        q9: 'c',
+        q10: 'b'
     };
 
     const answers = new FormData(event.target);
